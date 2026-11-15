@@ -7442,31 +7442,31 @@ MonoBehaviour:
     defense: 0.8
   - name: GLACIA
     role: Controller
-    colour: {r: 0.23529412, g: 0.8392157, b: 0.9490196, a: 0}
+    colour: {r: 0.23529412, g: 0.8392157, b: 0.9490196, a: 1}
     power: 0.5
     speed: 0.6
     defense: 0.8
   - name: VOLTRA
     role: Speedster
-    colour: {r: 0.654902, g: 0.54509807, b: 0.98039216, a: 0}
+    colour: {r: 0.654902, g: 0.54509807, b: 0.98039216, a: 1}
     power: 0.6
     speed: 0.95
     defense: 0.3
   - name: SYLVA
     role: Healer
-    colour: {r: 0.5176471, g: 0.8, b: 0.08627451, a: 0}
+    colour: {r: 0.5176471, g: 0.8, b: 0.08627451, a: 1}
     power: 0.4
     speed: 0.6
     defense: 0.7
   - name: UMBRA
     role: Assassin
-    colour: {r: 0.9098039, g: 0.4745098, b: 0.9764706, a: 0}
+    colour: {r: 0.9098039, g: 0.4745098, b: 0.9764706, a: 1}
     power: 0.85
     speed: 0.8
     defense: 0.25
   - name: BOLDER
     role: Tank
-    colour: {r: 0.6039216, g: 0.627451, b: 0.7647059, a: 0}
+    colour: {r: 0.6039216, g: 0.627451, b: 0.7647059, a: 1}
     power: 0.7
     speed: 0.3
     defense: 0.95
