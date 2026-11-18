@@ -19,7 +19,7 @@ Title > Main Menu > (Mode Select > Legend Select > Match <> Pause > Results) / S
 
 ## Palette and motion (shared by all screens)
 
-Navy `#0E1020` (60%), Indigo `#1B1F3A` (30%), Ember Orange `#FF7A1A` (10%, primary action only), Frost Cyan `#3CD6F2`, Gold `#FFC83D` (currency only), Danger `#FF5468` (destructive only), Text `#F4F1EA`. Font: Liberation Sans SDF (TextMeshPro default). All tweens come from my own coroutine helper (`Tween.cs`) using standard easing equations, on unscaled time. Screen change: leave 0.18 s **InCubic** (leaving is quick), arrive 0.30 s **OutCubic** (arriving settles). Button press: scale to 0.94 with **OutCubic** 0.08 s, release with **OutBack** 0.2 s (confirms the touch and springs back).
+Navy `#0E1020` (60%), Indigo `#1B1F3A` (30%), Ember Orange `#FF7A1A` (10%, primary action only), Frost Cyan `#3CD6F2`, Gold `#FFC83D` (currency only), Danger `#FF5468` (destructive only), Text `#F4F1EA`. Font: Liberation Sans SDF (TextMeshPro default) All tweens are based on my own coroutine helper (`Tween.cs`) using standard easing equations, on unscaled time. Screen change: 0.18s left **OutCubic** (arriving settles) **InCubic** (leaving is quick) arrive 0.30 s Button press: scale to 0.94 with **OutCubic** 0.08 s, release with **OutBack** 0.2 s (confirms the touch and bounces back)
 
 ---
 
